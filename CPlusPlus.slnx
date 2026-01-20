@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CompilerTest/CompilerTest.vcxproj" Id="6d765f3d-ebfc-48fe-a55b-e6822af037bc" />
+  <Project Path="InlineFunction/InlineFunction.vcxproj" Id="6134d145-b66c-4b7a-a87c-164cc9aaea78" />
+</Solution>

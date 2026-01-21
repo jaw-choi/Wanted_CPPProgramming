@@ -9,6 +9,9 @@ void PrintArray(int* array, int length)
     }
 }
 
+
+
+
 int main()
 {
     int array[10] = {};

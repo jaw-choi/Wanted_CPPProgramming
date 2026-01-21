@@ -3,7 +3,10 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="05_ex/05_ex.vcxproj" Id="9a9d70c3-33a1-407d-a1d1-5efaa1032a96" />
+  <Project Path="Array/Array.vcxproj" Id="e9118579-7fda-4177-afb4-bbb5bc56a3db" />
   <Project Path="CompilerTest/CompilerTest.vcxproj" Id="6d765f3d-ebfc-48fe-a55b-e6822af037bc" />
   <Project Path="InlineFunction/InlineFunction.vcxproj" Id="6134d145-b66c-4b7a-a87c-164cc9aaea78" />
   <Project Path="Pointer/Pointer.vcxproj" Id="ee73c363-203d-4846-9647-42aa3efe6c4e" />
+  <Project Path="Reference/Reference.vcxproj" Id="ea48cc97-d2b2-4d2e-b9a3-e3f4fcdd2fe9" />
 </Solution>

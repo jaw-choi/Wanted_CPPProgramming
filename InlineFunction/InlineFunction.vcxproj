@@ -24,6 +24,7 @@
     <ProjectGuid>{6134d145-b66c-4b7a-a87c-164cc9aaea78}</ProjectGuid>
     <RootNamespace>InlineFunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>01_InlineFunction</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

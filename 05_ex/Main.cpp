@@ -1,5 +1,9 @@
 ﻿#include <iostream>
-//#include <string>
+#include <Windows.h>
+
+#define MYTEXT(value) L##value 
+#define MYTEST(value1,value2) value1##value2
+//##은 파라미터 두개를 무식하게 붙임
 
 //클래스 내부에서 문자열을 나누기
 class Player
@@ -51,6 +55,14 @@ int main(void)
 
     Player player("Jae");
 
+    //const wchar_t* wideString = L"Hello wide string"; //wide character type => L 붙임
+    const wchar_t* wideString = MYTEXT("Hello wide string"); //매크로 활용
+    
+    std::wcout << wideString << TEXT("\n");
+
+    auto test = MYTEST(10, 20);
+
+    std::wcout << test << TEXT("\n");
     std::cin.get();
      
 }

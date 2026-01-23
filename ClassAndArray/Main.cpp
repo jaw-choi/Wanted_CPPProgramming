@@ -12,14 +12,16 @@ class Entity
     ~Entity() = default;
     //멤버 함수 선언 끝의 const는 
     //이 함수가 객체 상태(this)를 변경하지 않겠다는 의미입니다.
-    void showName() const {
-
-        std::cout << "Entity. \n ";
+    void showName() {
+        std::cout << "Entity. \n "; // 실행됨.c++은 C의 방식을 활용하기 때문에 class안에 있는 함수도 사실 전역함수임
+        x = 5; //error 발생 -> 객체가 nullptr이므로 접근불가.
     }
     const Entity& GetSelf() const {
         // this는 자기 자신을 가리키는 '포인터'.
         return *this;
     }
+private:
+    int x = 0;
 };
 
 //void showName(Entity* entity) //숨겨진 매개변수가 있음 이것이 this
@@ -29,10 +31,10 @@ class Entity
 
 int main(void)
 {
-    //Entity* entity = nullptr;
-    //entity->showName(); // 객체정보가 넘어감, 함수 호출시에는 null체크 안함, c#,java는 null체크함
-    ////                  // c++은 있는지 없는지 확인안함,C는 class가 없고,
-    //                    // C의 방식을 활용하기 때문에 class안에 있는 함수도 사실 전역함수임
+    Entity* entity = nullptr;
+    entity->showName(); // 객체정보가 넘어감, 함수 호출시에는 null체크 안함, c#,java는 null체크함
+    //                  // c++은 있는지 없는지 확인안함,C는 class가 없고,
+                        // C의 방식을 활용하기 때문에 class안에 있는 함수도 사실 전역함수임
     ////showName();
     //const int count = 5;
     //Entity entities[count];

@@ -10,7 +10,9 @@
   <Project Path="CompilerTest/CompilerTest.vcxproj" Id="6d765f3d-ebfc-48fe-a55b-e6822af037bc" />
   <Project Path="ForwardDeclaration/ForwardDeclaration.vcxproj" Id="4337e173-7139-4222-8ac3-4d6d088caf2c" />
   <Project Path="FriendKeyword/FriendKeyword.vcxproj" Id="9c637bc5-31e2-4928-aa66-2fcbed272b2e" />
+  <Project Path="Inheritance/Inheritance.vcxproj" Id="2e17fca5-4e55-460e-bb9f-31aabc9a2e5c" />
   <Project Path="InlineFunction/InlineFunction.vcxproj" Id="6134d145-b66c-4b7a-a87c-164cc9aaea78" />
   <Project Path="Pointer/Pointer.vcxproj" Id="ee73c363-203d-4846-9647-42aa3efe6c4e" />
+  <Project Path="Polymorphism/Polymorphism.vcxproj" Id="dd92dee8-41d7-43fa-a8f6-4bfc81c62f26" />
   <Project Path="Reference/Reference.vcxproj" Id="ea48cc97-d2b2-4d2e-b9a3-e3f4fcdd2fe9" />
 </Solution>

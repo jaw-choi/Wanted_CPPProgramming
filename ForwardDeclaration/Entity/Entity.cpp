@@ -16,7 +16,7 @@ namespace Wanted {
     {
         std::cout << "copy constructor called\n";
         //기본 복사 생성자가 하는일
-        //값 복사
+        //주소값 복사
         //나중에 댕글링 포인터 문제 발생
         //Dangling pointer - 주인을 잃어버림.
         //-> 이미 삭제된 메모리 주소에 접근

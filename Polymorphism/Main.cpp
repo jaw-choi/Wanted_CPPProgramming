@@ -5,7 +5,11 @@
 
 #define PURE = 0;
 
-class NameInterface
+//Refactoring에 사용 많이 함
+//인터페이스
+//순수 가상 함수만 가져야 함
+//외부의 다른객체와 소통하기 위한 기법 ->외부에서 접근이 가능해야 의미가 있음 : 항상 public으로 해야 됨
+class NameInterface //구현을 강제하고 싶을때
 {
 public:
     virtual const char* GetName() const PURE;
@@ -66,8 +70,7 @@ int main()
     std::cout << player->GetName() << "\n";
     //player->Print();
     //player->Print(); player는 (Entity*)이기 때문에 부모클래스 범위로 제한
-    std::cout << sizeof(Entity)<<"\n";
-    std::cout << sizeof(Player);
+
     delete player;
     delete entity;
 

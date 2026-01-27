@@ -31,8 +31,8 @@ private:
 
 int main(void)
 {
-    Entity* entity = nullptr;
-    entity->showName(); // 객체정보가 넘어감, 함수 호출시에는 null체크 안함, c#,java는 null체크함
+    //Entity* entity = nullptr;
+   // entity->showName(); // 객체정보가 넘어감, 함수 호출시에는 null체크 안함, c#,java는 null체크함
     //                  // c++은 있는지 없는지 확인안함,C는 class가 없고,
                         // C의 방식을 활용하기 때문에 class안에 있는 함수도 사실 전역함수임
     ////showName();

@@ -20,4 +20,5 @@
   <Project Path="Reference/Reference.vcxproj" Id="ea48cc97-d2b2-4d2e-b9a3-e3f4fcdd2fe9" />
   <Project Path="Template/Template.vcxproj" Id="335061ff-9574-477b-809b-3acbe6d81d84" />
   <Project Path="TypeCasting/TypeCasting.vcxproj" Id="2efbd571-b2d6-46a2-90ee-259da5cccccb" />
+  <Project Path="UniquePointer/UniquePointer.vcxproj" Id="8d2c3c3e-e4ac-48f4-a845-7312a6d1c312" />
 </Solution>

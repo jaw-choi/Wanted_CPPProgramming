@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fbeb63d6-2ecc-4b5e-82cc-e04897fb09cd}</ProjectGuid>
-    <RootNamespace>FunctionPointer</RootNamespace>
+    <ProjectGuid>{8d2c3c3e-e4ac-48f4-a845-7312a6d1c312}</ProjectGuid>
+    <RootNamespace>UniquePointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>16_FunctionPointer</ProjectName>
+    <ProjectName>17_UniquePointer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

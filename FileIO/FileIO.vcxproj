@@ -24,6 +24,7 @@
     <ProjectGuid>{517d85d7-ae9b-4eeb-9a7f-07d6e51276a5}</ProjectGuid>
     <RootNamespace>FileIO</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>15_FileIO</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
